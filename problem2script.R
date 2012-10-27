@@ -13,7 +13,7 @@ medalcount=function(dataset){
     if(dataset[i]=="Bronze"){b=b+1}
   }
   
-  return(c(g,s,b))
+  return(c(b,g,s))
   
 }
 

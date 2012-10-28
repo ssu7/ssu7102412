@@ -4,7 +4,7 @@
 \title{my1rpack: My First R Package}
 \description{my1rpack: My First R Package.  }
 \details{Contains problem1.R, a function which randomly samples from a range of numbers, plots the normal distribution based on the sampled points, generates a tex file with the plot, and outputs a PDF file if the user desires. Also contains problem2.RData, a list mode object with the number of Winter Olympic medals won by each Country seperated by medal color. See included .Rd files for more information.}
-\author{Steven Su}
+\author{Steven}
 \keyword{package}
 \examples{
 

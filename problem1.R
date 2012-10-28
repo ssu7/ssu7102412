@@ -8,7 +8,7 @@ texfile=paste(filename, "tex", sep=".")
 
 require(tikzDevice);
 tikz(file=texfile,standAlone=T);
-plot(xval, yval, type="l", ylab='$dnorm(x)$', xlab='$x$')
+plot(xval, yval, type="l", ylab='\\verb+dnorm(x)+', xlab='\\verb+x+')
 dev.off();
 if(compile==TRUE){
   tools::texi2pdf(texfile);

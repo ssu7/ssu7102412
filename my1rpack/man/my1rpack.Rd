@@ -1,5 +1,5 @@
-\name{my1rpack}
-\alias{package}
+\name{my1rpack-package}
+\alias{my1rpack-package}
 \docType{package}
 \title{my1rpack: My First R Package}
 \description{my1rpack: My First R Package.  }

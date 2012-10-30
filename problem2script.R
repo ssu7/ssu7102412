@@ -19,5 +19,5 @@ medalcount=function(dataset){
 
 bymedalcolorandcountry=tapply(mydata$Medal, mydata$NOC, medalcount)
 
-save(bymedalcolorandcountry, file="problem2.RData")
+save(list="bymedalcolorandcountry", file="problem2.RData")
 

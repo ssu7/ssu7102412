@@ -3,7 +3,7 @@ Type: Package
 Title: my1rpack: My First R Package
 Version: 1.0
 Date: 2012-10-28
-Author: Steven
-Maintainer: Steven <dummy@email.com>
-Description: Contains problem1.R, a function which randomly samples from a range of numbers, plots the normal distribution based on the sampled points, generates a tex file with the plot, and outputs a PDF file if the user desires. Also contains problem2.RData, a list mode object with the number of Winter Olympic medals won by each Country seperated by medal color. See included .Rd files for more information.. 
+Author: Steven Su
+Maintainer: Steven Su <dummy@email.com>
+Description: Contains problem1.R, a function which randomly samples from a range of numbers, plots a specified function based on the sampled points, generates a tex file with the plot, and outputs a PDF file if the user desires. Also contains problem2.RData, a list-mode object with the number of Winter Olympic medals from 1924 to 2006 won by each country seperated by medal color. See included individual .Rd files for more information.
 License:GPL-3

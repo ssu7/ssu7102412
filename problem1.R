@@ -1,6 +1,6 @@
 problem1<-function(filename=NULL, fcnname=NULL, range=NULL, nsample=NULL,compile=NULL){
 
-xval=runif(nsample, range[1],range[2])
+xval=runif(nsample, min(range), max(range))
 xval=sort(xval,decreasing=F)                                   
 yval=fcnname(xval)
 
